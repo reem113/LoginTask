@@ -2,20 +2,14 @@ package com.example.android.logintask.DataView;
 
 import androidx.databinding.DataBindingUtil;
 import androidx.lifecycle.ViewModelProvider;
-
 import android.net.Uri;
 import android.os.Bundle;
-
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
-import com.bumptech.glide.Glide;
-import com.bumptech.glide.request.RequestOptions;
 import com.example.android.logintask.R;
 import com.example.android.logintask.databinding.DataViewFragmentBinding;
 import com.facebook.AccessToken;
@@ -23,10 +17,8 @@ import com.facebook.GraphRequest;
 import com.facebook.GraphResponse;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-
 import org.json.JSONException;
 import org.json.JSONObject;
-
 import de.hdodenhof.circleimageview.CircleImageView;
 
 public class DataView extends Fragment {
