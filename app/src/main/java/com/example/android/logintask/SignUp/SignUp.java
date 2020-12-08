@@ -68,7 +68,7 @@ public class SignUp extends Fragment {
                 jobTitle = signUpFragmentBinding.jobTitle.getText().toString().trim();
                 email = signUpFragmentBinding.email.getText().toString().trim();
                 password = signUpFragmentBinding.password.getText().toString().trim();
-                //userRegister(image, firstName, lastName, gender, jobTitle, email, password);
+                userRegister(image, firstName, lastName, gender, jobTitle, email, password);
             }
         });
 
